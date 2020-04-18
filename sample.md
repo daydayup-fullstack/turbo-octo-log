@@ -62,6 +62,5 @@ feature/scott-2020-04-18-sat
 ### file structure
 
 README.md(add your notes here)
-Instruction.md
 
 #请将最新内容添加到文档最前端
