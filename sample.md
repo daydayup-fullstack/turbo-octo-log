@@ -42,3 +42,4 @@ Use them accordingly
 
 
 [Github markdown guide](https://guides.github.com/features/mastering-markdown/)
+[How to upload your images to github](http://solutionoptimist.com/awesome-github-tricks/)
