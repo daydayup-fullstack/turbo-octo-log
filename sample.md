@@ -40,6 +40,25 @@ Hooks solve a wide variety of seemingly unconnected problems in React that we’
 
 Use them accordingly
 
-
+### How to write markdown?
 [Github markdown guide](https://guides.github.com/features/mastering-markdown/)
+
+### How to host your images?
 [How to upload your images to github](http://solutionoptimist.com/awesome-github-tricks/)
+
+### branches setup
+
+master - locked - managed by Scott
+
+develop - need 2 persons review to merge/rebase
+
+hotfix - need 2 persons review to merge/rebase
+
+### Sample feature naming convention
+
+feature/scott-2020-04-18-sat
+
+### file structure
+
+README.md          <- where we edit
+Instruction.md
