@@ -2,6 +2,64 @@
 A log for every day programming challenges
 
 # Week 5
+
+### How to use typescript with react?
+
+`typescript` `react`
+
+```
+npx create-react-app my-app --template typescript
+
+```
+
+
+https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
+
+
+### How to set default launching browser in react project?
+
+`npm`
+
+```
+"start": "BROWSER=\"Firefox Developer Edition\" react-scripts start"
+```
+
+
+### how to format localeDateString and localeTimeString?
+
+`date` `time`
+
+[LocalTimeString MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString)
+
+[localDateString MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString)
+
+### How to handle timezone shift in javascript?
+
+
+### How to find a string contains another string?
+
+```string.includes(targetString)```
+
+
+### How to convert moment-timezone string to normal string? or use it straight-away?
+
+
+### How to split string with multiple seperators?
+
+https://stackoverflow.com/questions/5993779/use-string-split-with-multiple-delimiters
+https://regex101.com/
+
+
+### 5 ways to style a react component
+
+https://blog.bitsrc.io/5-ways-to-style-react-components-in-2019-30f1ccc2b5b
+
+
+### How to concat JSX fragments?
+
+https://stackoverflow.com/questions/36912179/how-to-concatenate-two-jsx-fragment-or-variables-or-string-and-component-in-rea/49176188
+
+
 ---
 ### The React component lifecycle
 `Lawrence` `component lifecycle` `codepen`  
