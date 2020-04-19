@@ -7,13 +7,16 @@ A log for every day programming challenges
 
 `Ollie` `React` `img tag`
 in react, the 'src' attribute of <img> tag lose its original effect, which should be replaced as 
-<code>
+```html
 <img className="card-img" src={require(`${props.img}`)} alt="gift description"></img>
-<code>
+```
 (react)
 OR
+
 <code>
+```html
 <img id="sku-quit" src={require('../../../images/quit_button.png')}/>
+```
 <code>(relative location)
 ---
 ### The React component lifecycle
