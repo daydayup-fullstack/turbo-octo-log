@@ -3,6 +3,10 @@ A log for everyday programming challenges
 
 # Week 5
 
+### How to calculate the current season by location?
+`date` `season` `crazy`
+https://stackoverflow.com/questions/5670678/javascript-coding-input-a-specific-date-output-the-season/5671172#5671172
+
 ### How to use typescript with react?
 
 `typescript` `react`
