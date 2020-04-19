@@ -3,6 +3,7 @@ A log for every day programming challenges
 
 # Week 5
 ---
+
 ### setting 'src' attribute of img in React
 
 `Ollie` `React` `img tag`
@@ -18,8 +19,23 @@ OR
 <img id="sku-quit" src={require('../../../images/quit_button.png')}/>
 ```
 (relative location)
----
+
+
+### Ensure you have **import** React and **export** the component 
+
+`React` `import` `export`
+
+```
+import React from 'react';
+```
+```
+export default yourComponent
+
+```
+
+
 ### The React component lifecycle
+
 `Lawrence` `component lifecycle` `codepen`  
 
 [The React component lifecycle](https://codepen.io/lawrence415610/pen/abojvRq)  
