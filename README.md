@@ -3,6 +3,11 @@ A log for every day programming challenges
 
 # Week 5
 ---
+`Ollie` `React` `img tag`
+in react, the 'src' attribute of <img> tag lose its original effect, which should be replaced as 
+<img className="card-img" src={require(`${props.img}`)} alt="gift description"></img> (in react) 
+OR <img id="sku-quit" src={require('../../../images/quit_button.png')}/>(relative location)
+---
 ### The React component lifecycle
 `Lawrence` `component lifecycle` `codepen`  
 
