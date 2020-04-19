@@ -3,6 +3,11 @@ A log for every day programming challenges
 
 # Week 5
 ---
+### import and export
+
+ensure you have **import** React and **export** the component 
+
+
 ### The React component lifecycle
 `Lawrence` `component lifecycle` `codepen`  
 
