@@ -3,6 +3,8 @@ A log for every day programming challenges
 
 # Week 5
 ---
+### setting 'src' attribute of img in React
+
 `Ollie` `React` `img tag`
 in react, the 'src' attribute of <img> tag lose its original effect, which should be replaced as 
 ```html
