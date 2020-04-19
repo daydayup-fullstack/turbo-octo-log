@@ -13,11 +13,11 @@ in react, the 'src' attribute of <img> tag lose its original effect, which shoul
 (react)
 OR
 
-<code>
+
 ```html
 <img id="sku-quit" src={require('../../../images/quit_button.png')}/>
 ```
-<code>(relative location)
+(relative location)
 ---
 ### The React component lifecycle
 `Lawrence` `component lifecycle` `codepen`  
