@@ -1,57 +1,8 @@
 # turbo-octo-log
 A log for every day programming challenges
 
-# Week 5
----
-### The React component lifecycle
-`Lawrence` `component lifecycle` `codepen`  
-
-[The React component lifecycle](https://codepen.io/lawrence415610/pen/abojvRq)  
-
-![images](https://user-images.githubusercontent.com/34848993/79633236-935ba600-81a7-11ea-9f89-ba811ee2b1b6.png)
-
-A slideshow for React component lifecycle
-- componentDidMount is only load once after the render() function, and we use ajax to load apis in this function
-
-- componentDidUpdate(preProps, prevState) called immediately after the render(), it's a chance for more ajax request
-
-  ---
-
-### Fetching data in React
-
-`Lawrence` `es6` `api`   
-
-Summary:  
-
-A brief introduction to fetch data in React  
-
-Links:  
-
-[promiss usage&details](https://juejin.im/post/5b2a422bf265da59810b677c)  
-
-[fetch API MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)  
-
-[fetch data in React Tutorial](https://www.robinwieruch.de/react-fetching-data)  
-
-[fetch data using React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data)  
-
-[axios](https://github.com/axios/axios)  
-
-Example: 
-
-```fetch(url).then(/*function*/).then()....catch(e => e)```
-
----
-
-### js hoisting & closure
-
-`Lawrence` `js` `closure`  
-
-Summary: a short and simple explanation about closure and js hoisting  
-
-Link: [my personal blog](https://blog.csdn.net/Rance_King/article/details/105621030)
-
   # Week 6
+
 ---
 
 ### React Principle
@@ -100,5 +51,54 @@ Link:
 
 [js tutorial](https://zh.javascript.info/)
 
+# Week 5
+
 ---
+### The React component lifecycle
+`Lawrence` `component lifecycle` `codepen`  
+
+[The React component lifecycle](https://codepen.io/lawrence415610/pen/abojvRq)  
+
+![images](https://user-images.githubusercontent.com/34848993/79633236-935ba600-81a7-11ea-9f89-ba811ee2b1b6.png)
+
+A slideshow for React component lifecycle
+- componentDidMount is only load once after the render() function, and we use ajax to load apis in this function
+
+- componentDidUpdate(preProps, prevState) called immediately after the render(), it's a chance for more ajax request
+
+  ---
+
+### Fetching data in React
+
+`Lawrence` `es6` `api`   
+
+Summary:  
+
+A brief introduction to fetch data in React  
+
+Links:  
+
+[promiss usage&details](https://juejin.im/post/5b2a422bf265da59810b677c)  
+
+[fetch API MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)  
+
+[fetch data in React Tutorial](https://www.robinwieruch.de/react-fetching-data)  
+
+[fetch data using React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data)  
+
+[axios](https://github.com/axios/axios)  
+
+Example: 
+
+```fetch(url).then(/*function*/).then()....catch(e => e)```
+
+---
+
+### js hoisting & closure
+
+`Lawrence` `js` `closure`  
+
+Summary: a short and simple explanation about closure and js hoisting  
+
+Link: [my personal blog](https://blog.csdn.net/Rance_King/article/details/105621030)
 
