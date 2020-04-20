@@ -3,6 +3,10 @@ A log for everyday programming challenges
 
 # Week 5
 
+### How to setup tailwind css with react typescript?
+`react` `tailwind`
+https://medium.com/quick-code/tailwind-react-typescript-a0317155e5ee
+
 ### How to delete a whole line in zsh?
 `cli` `shortcut`
 
