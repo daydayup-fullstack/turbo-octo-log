@@ -70,6 +70,24 @@ https://blog.bitsrc.io/5-ways-to-style-react-components-in-2019-30f1ccc2b5b
 https://stackoverflow.com/questions/36912179/how-to-concatenate-two-jsx-fragment-or-variables-or-string-and-component-in-rea/49176188
 
 ---
+
+### setting 'src' attribute of img in React
+
+`Ollie` `React` `img tag`
+in react, the 'src' attribute of <img> tag lose its original effect, which should be replaced as 
+```html
+<img className="card-img" src={require(`${props.img}`)} alt="gift description"></img>
+```
+(react)
+OR
+
+
+```html
+<img id="sku-quit" src={require('../../../images/quit_button.png')}/>
+```
+(relative location)
+
+
 ### Ensure you have **import** React and **export** the component 
 
 `React` `import` `export`
@@ -83,8 +101,8 @@ export default yourComponent
 ```
 
 
-
 ### The React component lifecycle
+
 `Lawrence` `component lifecycle` `codepen`  
 
 [The React component lifecycle](https://codepen.io/lawrence415610/pen/abojvRq)  
