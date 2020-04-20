@@ -3,6 +3,36 @@ A log for everyday programming challenges
 
   # Week 6
 
+### Important concepts:
+
+`this ` `arrow function` `scope` `hoist`
+
+summary: 一些容易混淆的基础概念总结。
+
+1. "this" in JavaScript 
+ https://zhuanlan.zhihu.com/p/31812336  (比较全面的this用法和特性介绍以及各个情况下的使用)
+
+2. Difference between Arrow Function and other Functions:
+ https://blog.csdn.net/github_38851471/article/details/79446722
+
+3. 老师上节课的scope和hoist的总结：
+ scope:
+
+var is functional scope
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+
+let and const are block scope
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const
+
+hoist:
+
+- var
+- function
+
+NOTE: only declaration will be hoisted
+
+
 ---
 
 ### React Principle
