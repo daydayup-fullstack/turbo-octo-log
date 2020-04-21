@@ -83,6 +83,60 @@ Link:
 
 # Week 5
 
+### How to setup tailwind css with react typescript?
+`react` `tailwind`
+https://medium.com/quick-code/tailwind-react-typescript-a0317155e5ee
+
+### How to delete a whole line in zsh?
+`cli` `shortcut`
+
+> Ctrl + U
+
+--- 
+
+### How to pass data from child back to parent?
+`react`
+
+从课上到现在为止, 我们都是从parent通过props的形式向child传递数据.
+
+例如: **Card** <- title, description, **Clock** <- city
+
+那如何从child向parent传递数据呢?
+
+主要的usecase是, 如果child component的state有变化, 你想要parent component知道. 
+
+比如说, *有个switch可以切换Dark/Light mode*, 或者是 *朋友圈里被点赞, 这个信息想要同步到数据库这个动作*.
+
+``` javascript
+// 通过从parent向child通过props传入一个()=>{}, a callback function
+
+// App.js
+
+<Switch onToggleMode={this.toggleMode}>  //Child, 只是传入reference并没有执行
+
+---------------------------------------------------------------------------
+// Switch component里
+...
+
+<button onClick={(data) => this.props.onToggleMode(data)}>
+
+// 这里的data, 可以是event, 可以是state, 是所有你想要传回parent里的数据.
+
+```
+
+---
+### Remember to stop page refresh when form submit
+`react` `form` `preventDefault`
+
+```javascript
+const onHandleSubmit(e) => {
+    e.preventDefault();
+    ...
+}
+
+```
+---
+
 ### How to calculate the current season by location?
 `date` `season` `crazy`
 https://stackoverflow.com/questions/5670678/javascript-coding-input-a-specific-date-output-the-season/5671172#5671172
