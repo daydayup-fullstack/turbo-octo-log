@@ -7,6 +7,7 @@ A log for everyday programming challenges
 
 ### git readme conflict
 `git`
+
 今天做完作业，按照往常 add建立连接，然后push，结果报错了。发现是git远程repo与本地repo的readme共存，所以冲突了。那就pull一下咯？
 首先git pull origin master,但是！报错：fatal: refusing to merge unrelated histories
 解决方案：git pull origin master --allow-unrelated-histories
@@ -14,6 +15,7 @@ A log for everyday programming challenges
 
 ### js模糊搜索
 `js`
+
 在做timezone的作业时，碰到一个问题。时区的参数格式是'Australia/Sydney',所有类似的时区格式以数组的形式保存，例如：
 ``` javascript
   const cities = ['Australia/Sydney', 'Australia/Melbourne', 'Australia/Perth'];
