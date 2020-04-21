@@ -3,7 +3,10 @@ A log for everyday programming challenges
 
   # Week 6
 
+### How To Use Bootstrap With React 
+`React` `Bootstrap`
 
+https://www.bootstrapdash.com/use-bootstrap-4-with-reactjs/
 
 ### git readme conflict
 `git`
