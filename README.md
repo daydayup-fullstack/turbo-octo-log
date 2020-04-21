@@ -2,6 +2,14 @@
 A log for everyday programming challenges
 
   # Week 6
+### Css Grid completed guide
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+### A Smooth scrolling implementation in React
+https://codepen.io/brian-baum/pen/mJZxJX
+
+### How to Re-render a react component on Window Resize
+https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
 
 ### Responsive background images using react hooks
 https://itnext.io/responsive-background-images-using-react-hooks-941af365ea1f
