@@ -18,6 +18,30 @@ Link: [极简axios入门和源码分析](https://github.com/zxfjd3g/191121_axios
 
 ---
 
+### How To Use Bootstrap With React 
+`React` `Bootstrap`
+
+https://www.bootstrapdash.com/use-bootstrap-4-with-reactjs/
+
+### git readme conflict
+`git`
+
+今天做完作业，按照往常 add建立连接，然后push，结果报错了。发现是git远程repo与本地repo的readme共存，所以冲突了。那就pull一下咯？
+首先git pull origin master,但是！报错：fatal: refusing to merge unrelated histories
+解决方案：git pull origin master --allow-unrelated-histories
+然后解决冲突。就可以正常push了。
+
+### js模糊搜索
+`js`
+
+在做timezone的作业时，碰到一个问题。时区的参数格式是'Australia/Sydney',所有类似的时区格式以数组的形式保存，例如：
+``` javascript
+  const cities = ['Australia/Sydney', 'Australia/Melbourne', 'Australia/Perth'];
+```
+但是用户的输入可能只是'Sydney'，并不完整，这时候就可以用模糊搜索来搜索片段并定位，链接中有封装好的方法：
+https://www.jianshu.com/p/4cd4f74a0b20
+https://juejin.im/post/5e859abb6fb9a03c714b4201
+
 ### Important concepts:
 
 `this ` `arrow function` `scope` `hoist`
