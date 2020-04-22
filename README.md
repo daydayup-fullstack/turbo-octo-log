@@ -3,6 +3,21 @@ A log for everyday programming challenges
 
   # Week 6
 
+### use git more efficiently
+
+Summary: 对于使用git add和commit以及提交分支的时机，如果控制得当，可以减少产生conflict的状况，并将操作简化。
+
+1. 不随意进行commit。进行commit的时机是阶段性完成之后，简而言之，commit是为了明确说明自己在这一段里面做了什么。一般写完一些没事用add去添加。
+2. 在提交之前切换到develop进行pull，切换回本分支进行commit以及merge操作，这里如果不commit，merge操作执行的结果就是already up to date，并无法提交，这样保证了操作的正确性。把commit留到develop pull之后再做可以极大减少问题的发生。
+
+---
+
+### axios simple tutorial
+
+Link: [极简axios入门和源码分析](https://github.com/zxfjd3g/191121_axios)
+
+---
+
 ### How To Use Bootstrap With React 
 `React` `Bootstrap`
 
@@ -55,7 +70,6 @@ hoist:
 - function
 
 NOTE: only declaration will be hoisted
-
 
 ---
 
@@ -116,7 +130,7 @@ https://medium.com/quick-code/tailwind-react-typescript-a0317155e5ee
 
 > Ctrl + U
 
---- 
+---
 
 ### How to pass data from child back to parent?
 `react`
