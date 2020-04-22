@@ -3,6 +3,18 @@ A log for everyday programming challenges
 
   # Week 6
 
+### Understanding this.setState({ [name]: value})
+
+Link: [a blog](https://medium.com/@bretdoucette/understanding-this-setstate-name-value-a5ef7b4ea2b4)
+
+Summary: 
+
+1. 这种对key的动态赋值可以用在所有object的key上，不仅仅是this.setState中，与object key动态赋值的语法无关，object key动态赋值是js的一个特性
+2. 用[]动态指定一个变量, 这个变量的值必须事先已经注册在this.state中，这归根结底在于this.state是一个特殊的object，如果不是在constructor中事先初始化，事后追加的this.setState里面的值是不能出现在this.state里面的(与生命周期函数有关)
+3. [xxx]中的内容xxx其来源是动态的，在this.setState的用法中往往是根据函数传进来的参数进行动态赋值
+4. 为什么会有这样的js设定？可以猜象，因为object的value是可以用外部的变量进行赋值的，而且value并不唯一；但对于object的key来说，从外部用变量赋值显然是有限制的，因为key必须是唯一值，万一两个不同的外部变量给了一个相同的key值，那就会造成问题。所以通过动态赋值的写法，就保证了key值的唯一，因为无论什么变量传入，都必须以变量的值为准，这个值指向唯一的key
+
+---
 ### use git more efficiently
 
 Summary: 对于使用git add和commit以及提交分支的时机，如果控制得当，可以减少产生conflict的状况，并将操作简化。
