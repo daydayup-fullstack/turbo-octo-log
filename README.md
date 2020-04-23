@@ -2,6 +2,21 @@
 A log for everyday programming challenges
 
   # Week 6
+### Css Grid completed guide
+https://css-tricks.com/snippets/css/complete-guide-grid/
+
+### A Smooth scrolling implementation in React
+https://codepen.io/brian-baum/pen/mJZxJX
+
+### How to Re-render a react component on Window Resize
+https://www.pluralsight.com/guides/re-render-react-component-on-window-resize
+
+### Responsive background images using react hooks
+https://itnext.io/responsive-background-images-using-react-hooks-941af365ea1f
+
+### How to add custom utilities in tailwindcss
+https://web-crunch.com/posts/how-to-extend-tailwind-css
+
 
 ### Understanding this.setState({ [name]: value})
 
@@ -133,7 +148,7 @@ Link:
 
 # Week 5
 
-### How to setup tailwind css with react typescript?
+### How to setup wok css with react typescript?
 `react` `tailwind`
 https://medium.com/quick-code/tailwind-react-typescript-a0317155e5ee
 
