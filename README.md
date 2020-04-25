@@ -3,6 +3,17 @@ A log for everyday programming challenges
 
   # Week 6
 
+### React Hook
+
+Link: [official intro](https://reactjs.org/docs/hooks-overview.html)
+
+Summary: 
+
+1. react hook本质上是一种官方推荐的best practice。react的生命周期函数明确地分割了react框架的行为，而react hook则是方便用户的api，可以减少代码冗余，使代码可读性增强。
+2. 使用hook的时候接触到Eslint的坑，Eslint是一个规定语法和格式的控制器，如果安装之后config不善就会导致各种报错。
+
+---
+
 ### context, bind, arrow function, this
 
 Link：[js教程](https://zh.javascript.info/object-methods)
