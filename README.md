@@ -38,6 +38,43 @@ Summary:
 
 ---
 
+### 不同的子组件如何同时共享state内的数据？
+`react`
+
+https://zh-hans.reactjs.org/docs/lifting-state-up.html
+
+---
+
+### 父组件如何获取子组件内state的值？
+`react`
+
+https://segmentfault.com/q/1010000007295553
+
+---
+### context, bind, arrow function, this
+
+Link：[js教程](https://zh.javascript.info/object-methods)
+		  [my blog](https://blog.csdn.net/Rance_King/article/details/105704085)
+
+---
+
+### Button type
+
+Link:
+
+[W3C button](https://www.w3school.com.cn/tags/att_button_type.asp)
+
+[input types](https://www.cnblogs.com/xiaohuochai/p/5179909.html)
+
+Summary: 
+
+1. button是HTML5新特性, 规定上button必须设置type, 默认的button type在大多数浏览器上是submit，在ie上是button
+2. 只有三种button type，即"submit", "reset", "button". "submit" and "reset"用于表单的发送和清空, "button"用于其他情况
+3. ```<input type='button'>``` 是传统的制作button的方法
+4. 选用button种类时，应关注的是button如何被使用，而非其外观，这可能也是HTML5如此设定的原因，区别于input中20多种外观的输入方式
+
+---
+
 ### Css Grid completed guide
 https://css-tricks.com/snippets/css/complete-guide-grid/
 
