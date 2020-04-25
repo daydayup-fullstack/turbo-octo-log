@@ -2,7 +2,19 @@
 A log for everyday programming challenges
 
   # Week 6
+### 不同的子组件如何同时共享state内的数据？
+`react`
 
+https://zh-hans.reactjs.org/docs/lifting-state-up.html
+
+---
+
+### 父组件如何获取子组件内state的值？
+`react`
+
+https://segmentfault.com/q/1010000007295553
+
+---
 ### context, bind, arrow function, this
 
 Link：[js教程](https://zh.javascript.info/object-methods)
