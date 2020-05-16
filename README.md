@@ -2,6 +2,103 @@
 A log for everyday programming challenges
 
 
+## Week 9
+### Dealing with overflow and position: sticky; 
+
+[Dealing with overflow and position: sticky](https://css-tricks.com/dealing-with-overflow-and-position-sticky/)
+
+想要overflow起作用, 必须设置一个对应方向上的width或height. 
+
+---
+
+### How to use React Beautiful DnD?
+`drag n drop` `library`
+[Beautiful and accessible drag and drop with react beautiful dnd - Egghead.io video course](https://egghead.io/courses/beautiful-and-accessible-drag-and-drop-with-react-beautiful-dnd)
+
+---
+### How to use color functions in Sass?
+`SASS` `Color function`
+[Controlling color with sass color function](https://thoughtbot.com/blog/controlling-color-with-sass-color-functions)
+
+```scss
+border: 1px solid darken($base-color, 20%);
+text-shadow: 0 -1px 0 darken($base-color, 10%);
+@include box-shadow(inset 0 1px 0 lighten($base-color, 20%));
+```
+
+---
+### How to setup Typescript with Node?
+`package.json` `typescript` `node`
+
+#### Project Setup
+```
+cd desired-folder
+mkdir node-project-with-ts
+npm init -y
+```
+
+```
+node-project-with-ts
+│   package.json
+│   tsconfig.json    
+│
+└───src
+│   │   index.ts
+│   │
+|
+└───node_modules
+```
+
+#### Installing Dependencies
+
+```
+npm i typescript nodemon concurrently -D
+```
+
+Initiate Typescript with options
+```
+npx tsc --init --rootDir src --outDir dist \
+--esModuleInterop --resolveJsonModule --lib es6 \
+--module commonjs --allowJs true --noImplicitAny true
+```
+
+tscnfig.json, 设置源文件和导出文件夹的位置
+```
+{
+  "compilerOptions" :{
+    ...
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+  }
+}
+```
+在package.json, 用concurrently和nodemon配合来自动把ts编译成js, 再应用到node里.
+```javascript
+"scripts": {
+  "dev": "concurrently \"tsc -w\" \"nodemon dist/index.js\""
+},
+```
+
+#### Installing Koa & node-fetch
+
+安装koa和node-fetch, 以及@types文件供ts来用.
+接下来就可以开始写业务代码了.
+```
+npm i koa node-fetch
+npm i @types/koa @types/node-fetch -D
+```
+
+#### 当需要运行时, 请运行一下命令.
+```
+npm run dev
+```
+[How to Setup a TypeScript + Node.js Project](https://khalilstemmler.com/blogs/typescript/node-starter-project/)
+[Tips for setting up a TypeScript nodejs project](https://codeburst.io/tips-for-setting-up-a-typescript-nodejs-project-5d1c48dc1a2d)
+[Setting Up A Node Typescript Project in Under 4 minutes - 另外一种方式](https://dev.to/theghostyced/setting-up-a-node-typescript-project-in-under-4-minutes-4gk2)
+[Typescript with Node: Should I use ts-node or tsc & node?](https://www.reddit.com/r/typescript/comments/8vkvzy/typescript_with_node_should_i_use_tsnode_or_tsc/)
+
+
 ## Week 7
 
 ---
