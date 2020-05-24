@@ -1,8 +1,12 @@
 # turbo-octo-log
 A log for everyday programming challenges
 
-
 ## Week 9
+
+### Redux class note
+
+[课堂笔记](https://blog.csdn.net/Rance_King/article/details/106317917)
+
 ### Dealing with overflow and position: sticky; 
 
 [Dealing with overflow and position: sticky](https://css-tricks.com/dealing-with-overflow-and-position-sticky/)
@@ -151,8 +155,10 @@ REACT_APP_GOOGLE_API_KEY=lkdfalkjdfbl1123sdkfjlsdjfls;
 ##### 为了解决这种缺陷, 勤劳勇敢的劳动人民们发明了JSONP和同域代理.
 
 - **同域代理(目前已弃用)** 
+  
   >同域代理就是使用Ajax向同域下的后台发送请求，同时携带真实请求的地址及参数，后台接受请求后直接根据地址及参数转发请求，因为后台是可以直接模拟HTTP客户端发送请求的，所以没有跨域问题，而后台接受到响应数据后再原样返回给前端浏览器，从而实现跨域数据交互. 
 - **JSONP(目前已弃用)**
+  
   >JSONP是利用了 script 标签的 src 属性来实现跨域数据交互的，因为浏览器解析HTML代码时，原生具有src属性的标签，浏览器都赋予其HTTP请求的能力，而且不受跨域限制，使用src发送HTTP请求，服务器直接返回一段JS代码的函数调用，将服务器数据放在函数实参中，前端提前写好响应的函数准备回调，接收数据，实现跨域数据交互；
 
 但是这两个方法, 只是绕开了跨域的问题, 并没有真正解决它, 算是临时的解决方案.
