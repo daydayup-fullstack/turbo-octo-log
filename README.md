@@ -1,6 +1,18 @@
 # turbo-octo-log
 A log for everyday programming challenges
 
+### When using !important is the right choice?
+[When using !important is the right choice?](https://www.notion.so/scotteau/Daily-Log-0ab8f27db4c64207a5ca8a58ae4826ed#5fb119eb639d435197a7df115998b112)
+
+## Week 10
+### Drag drop file uploader vanilla js
+[Drag drop file uploader vanilla js - Smashing Magazine](https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/)
+
+
+### Simple drag and drop file upload in react
+[Simple drag and drop file upload in react](https://medium.com/@650egor/simple-drag-and-drop-file-upload-in-react-2cb409d88929)
+
+
 
 ## Week 9
 ### Dealing with overflow and position: sticky; 
