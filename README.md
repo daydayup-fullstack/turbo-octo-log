@@ -14,6 +14,7 @@ A log for everyday programming challenges
 
 1. when use the production mode, the prop-type will not work. prop-type is for other developers who use your components
 2. it is actually very productive use React with tailwind rather than Bootstrap/AntD in case you will do a lot customization.
+3. in use effect we use a function for only once initialization
 
 ### Drag drop file uploader vanilla js
 [Drag drop file uploader vanilla js - Smashing Magazine](https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/)
