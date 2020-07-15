@@ -8,6 +8,16 @@ A log for everyday programming challenges
 
 ## Week 10
 
+### disable eslint
+
+[link](http://www.justthink.it/articles/turn-off-eslint-rule-via-config-file-via-javascript/)
+
+### what is LF and CRLF and how to solve issues of this
+
+[use a command line tool](https://www.ilovefreesoftware.com/28/programming/how-to-convert-lf-line-endings-to-crlf-line-endings.html)
+
+[stack overflow](https://stackoverflow.com/questions/1552749/difference-between-cr-lf-lf-and-cr-line-break-types)
+
 ### Use git emoji
 
 [resource](https://github.com/carloscuesta/gitmoji)
