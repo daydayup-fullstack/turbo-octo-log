@@ -1,16 +1,18 @@
 # turbo-octo-log
+## A log for everyday programming challenges
 
-A log for everyday programming challenges
 
 ### When using !important is the right choice?
 
 [When using !important is the right choice?](https://www.notion.so/scotteau/Daily-Log-0ab8f27db4c64207a5ca8a58ae4826ed#5fb119eb639d435197a7df115998b112)
 
-## Week 10
+---
 
 ### disable eslint
 
 [link](http://www.justthink.it/articles/turn-off-eslint-rule-via-config-file-via-javascript/)
+
+---
 
 ### what is LF and CRLF and how to solve issues of this
 
@@ -18,14 +20,20 @@ A log for everyday programming challenges
 
 [stack overflow](https://stackoverflow.com/questions/1552749/difference-between-cr-lf-lf-and-cr-line-break-types)
 
+---
+
 ### Use git emoji
 
 [resource](https://github.com/carloscuesta/gitmoji)
 [explanation](https://opensource.com/article/19/2/emoji-log-git-commit-messages)
 
+---
+
 ### What is CI/CD
 
 [What is CI/CD? Continuous integration and continuous delivery explained](https://www.infoworld.com/article/3271126/what-is-cicd-continuous-integration-and-continuous-delivery-explained.html)
+
+---
 
 ### Note taken from the beginner's guide to React
 
@@ -37,15 +45,19 @@ A log for everyday programming challenges
 2. it is actually very productive use React with tailwind rather than Bootstrap/AntD in case you will do a lot customization.
 3. in use effect we use a function for only once initialization
 
+---
+
 ### Drag drop file uploader vanilla js
 
 [Drag drop file uploader vanilla js - Smashing Magazine](https://www.smashingmagazine.com/2018/01/drag-drop-file-uploader-vanilla-js/)
+
+---
 
 ### Simple drag and drop file upload in react
 
 [Simple drag and drop file upload in react](https://medium.com/@650egor/simple-drag-and-drop-file-upload-in-react-2cb409d88929)
 
-## Week 9
+---
 
 ### Dealing with overflow and position: sticky;
 
