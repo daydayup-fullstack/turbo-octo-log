@@ -2,6 +2,56 @@
 ## A log for everyday programming challenges
 
 
+### Storybook viewport cofigurations ###
+`storybook` `viewport`
+
+[https://github.com/storybookjs/storybook/blob/master/addons/viewport/src/defaults.ts#L135](https://github.com/storybookjs/storybook/blob/master/addons/viewport/src/defaults.ts#L135)
+
+[https://storybook.js.org/docs/react/essentials/viewport](https://storybook.js.org/docs/react/essentials/viewport)
+
+---
+
+### Remove storybook body padding or margin ###
+`storybook`
+
+[https://github.com/storybookjs/storybook/pull/9229](https://github.com/storybookjs/storybook/pull/9229)
+
+---
+
+### Material Design Easing curve ###
+
+`animation` `easing`
+[https://material.io/design/motion/speed.html#easing](https://material.io/design/motion/speed.html#easing)
+
+---
+### Collection of Animation easing functions ###
+
+[https://easings.net](https://easings.net/)
+
+---
+
+### Animations using angular directives ###
+
+[Animation using angular directives](https://nativescripting.com/posts/animations-using-angular-directives)
+
+---
+
+### Angular Animation ###
+`Angular Animation`
+
+[https://medium.com/web-factory-llc/getting-started-with-programmatic-animations-using-the-angular-animations-api-3389ccc2184d](https://medium.com/web-factory-llc/getting-started-with-programmatic-animations-using-the-angular-animations-api-3389ccc2184d)
+
+[https://medium.com/angular-in-depth/total-guide-to-dynamic-angular-animations-that-can-be-toggled-at-runtime-be5bb6778a0a](https://medium.com/angular-in-depth/total-guide-to-dynamic-angular-animations-that-can-be-toggled-at-runtime-be5bb6778a0a)
+
+--- 
+
+### How to use the calenar component alone without the DatePicker
+`Angular` `Material Design `
+[Angular Material Calendar Component](https://onthecode.co.uk/angular-material-calendar-component/)
+
+
+---
+
 ### When using !important is the right choice?
 
 [When using !important is the right choice?](https://www.notion.so/scotteau/Daily-Log-0ab8f27db4c64207a5ca8a58ae4826ed#5fb119eb639d435197a7df115998b112)
